@@ -1,5 +1,8 @@
-package dev.heik.tests.movies;
+package dev.heik.tests.movies.service;
 
+import dev.heik.tests.movies.model.Movie;
+import dev.heik.tests.movies.model.Review;
+import dev.heik.tests.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

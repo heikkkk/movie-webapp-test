@@ -1,4 +1,4 @@
-package dev.heik.tests.movies;
+package dev.heik.tests.movies.model;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

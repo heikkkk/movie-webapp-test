@@ -1,4 +1,4 @@
-package dev.heik.tests.movies;
+package dev.heik.tests.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

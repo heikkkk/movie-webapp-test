@@ -1,5 +1,7 @@
-package dev.heik.tests.movies;
+package dev.heik.tests.movies.controller;
 
+import dev.heik.tests.movies.model.Movie;
+import dev.heik.tests.movies.service.MovieService;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

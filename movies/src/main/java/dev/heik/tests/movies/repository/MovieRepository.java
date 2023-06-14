@@ -1,5 +1,6 @@
-package dev.heik.tests.movies;
+package dev.heik.tests.movies.repository;
 
+import dev.heik.tests.movies.model.Movie;
 import java.util.Optional;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
