@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movies.backend" />
+        <module name="movies" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="movies" target="17" />
       <module name="movies.backend" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movies" options="-parameters" />
       <module name="movies.backend" options="-parameters" />
     </option>
   </component>
